@@ -25,13 +25,16 @@
     padding: 0px;
     font-family: 'Lora', serif;
 }
-#scroll{
+#focuszoom{
     display: none;
 }
-#mixtape{
+#scroll{
     display: block;
+}
+#mixtape{
+    display: none;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
 }
 .img-container{
     width: 100vw;
