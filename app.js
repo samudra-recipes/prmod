@@ -15,8 +15,14 @@
   const unsub = onSnapshot(doc(db, "app", "G8XLxyfOnP5zZoJIfErb"), (doc) => {
     console.log("Current data: ", doc.data().action);
     switch (doc.data().action) {
-        case 0:
+          case 10:
             console.log("0");
+          break;
+          case 11:
+            scrollToX();
+          break;
+          case 12:
+            activatePlayer();
           break;
         case 13:
             focusZoom()
